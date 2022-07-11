@@ -1,0 +1,30 @@
+/*
+* DESAFIO:
+- Você deverá entregar um projeto Spring Boot 2.4.x ou superior contendo um CRUD COMPLETO de web services REST para ACESSAR um recurso de clientes,
+contendo as cinco operações básicas aprendidas no capítulo:
+	-C: Inserir novo recurso
+	-R: Busca PAGINADA de recursos e Busca de recurso por ID
+	-U: Atualizar recurso
+	-D: Deletar recurso
+	
+- O projeto deverá estar com um AMBIENTE DE TESTE configurado para acessar o banco de dados H2. deverá usar MAVEN como GERENCIADOR DE DEPENDÊNCIA e JAVA 11 ou 17 como linguagem.
+- Um CLIENTE possui nome, CPF, renda, data de nascimento e quantidade de filhos. A ESPECIFICAÇÃO da entidade Client é mostrada a seguir (você deve seguir à risca os nomes de
+classe e atributos mostrado no diagrama):
+
+|----------------------------------|
+|              Client              |             
+|----------------------------------|
+|	- id: Long					   |
+|	- name: String				   |
+|	- cpf: String				   |
+|	- income: Double			   |
+|	- birthDate: Instant		   |
+|	- children: Integer			   |
+|----------------------------------|
+|								   |
+|----------------------------------|
+
+- Seu projeto DEVERÁ fazer um SEED de pelo menos 10 clientes com dados SIGNIFICATIVOS (REAIS)
+
+Atenção: Por padrão a JPA transforma nomes e atributos de camelCase(umgUrl) para snake_case(img_Url). Os scripts SQL DEVERÁ seguir este padrão.
+*/
